@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css.css">
+   
+   <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/678df032bf.js" crossorigin="anonymous"></script>
+
+
+    <!--GoogleFonts-anabaşlık-->    
+    <!--font-family: 'Rubik Iso', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+
+    
+    <!--GoogleFonts-arabaşlık--> 
+    <!--font-family: 'Rammetto One', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+ <!--GoogleFonts-arabaşlık-->  
+
+    <!--GoogleFonts-örnekler-->
+    <!--font-family: 'Kablammo', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+
+
+<!--GoogleFonts-nav-->
+<!--font-family: 'Press Start 2P', cursive;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+<link rel="icon" href="images/icon.png" type="image/x-icon">
+
+   <title>Genetik Mühendislik</title>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+         <div class="logo">
+            <a href="index.html"><img class="logo1" src="images/icon.png"><img class="logo2" src="images/icon.png"></a>
+        </div>
+                    <div class="nav-links" id="navLinks">
+                
+                        
+                                <ul>
+                                        <li><a href="index.html" >ANASAYFA</a></li>
+                                        <li><a href="about.html">HAKKIMIZDA</a></li>
+                                        <li><a href="contact.html">ILETISIM</a></li> 
+                                </ul>
+                                <i class="fa-solid fa-xmark fa" onclick="hideMenu()" ></i>
+                            </div>
+        
+                    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Genetik Mühendislik</h1>
+            <h2>HAKKIMIZDA  </h2>
+                <div class="h-btn">
+                    <a target="_blank" href="https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo" class="btn">Detay...</a>
+                </div>
+        </div>
+    </section>
+
+    <!---------text--------->
+    <section class="text-container">         
+        <div class="text"><br>
+            <h2>Hakkımızda</h2>
+   <p>Biz, genetik mühendislik alanında bilgi paylaşımı ve toplumu bilinçlendirme amacıyla kurulmuş bir platformuz. Misyonumuz, genetik mühendislik konusunda genel bir anlayış ve farkındalık oluşturmak, potansiyel faydalarını ve etik tartışmalarını ele almak ve genetik mühendislik ile ilgilenen herkes için bir kaynak sağlamaktır.</p>
+
+   <p>Ekibimiz, genetik mühendislik alanında uzmanlık ve deneyime sahip bilim insanlarından oluşmaktadır. Her bir üye, alanlarında derinlemesine bilgi ve birikime sahip olmanın yanı sıra, genetik mühendisliğin topluma ve doğaya etkilerini anlamak için büyük bir tutkuya sahiptir. Bir araya gelerek, geniş bir kitleye hitap eden güvenilir ve ilgi çekici içerikler sunmak için çalışıyoruz.</p>
+
+   <p>Amacımız, genetik mühendislik hakkında bilimsel ve tarafsız bilgi sunarak, okuyucularımıza bu alandaki gelişmeleri ve yenilikleri anlaşılır bir şekilde aktarmaktır. Bunun yanı sıra, etik, sosyal ve hukuki boyutları da dahil olmak üzere genetik mühendislik konusundaki tartışmaları ele almayı ve okuyucularımızın kendi düşüncelerini oluşturmalarına yardımcı olmayı hedefliyoruz.</p>
+   <br><br><br><br><br>  </div>  
+</section>
+
+
+
+
+<!-----foooter--->
+
+    <footer>            
+        <ul>
+            
+          <li><a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ef472e;"></i></a> 
+        </li><!--fontawesome icon-->
+            <li><a target="_blank" href="https://twitter.com/home?lang=tr"><i class="fa-brands fa-twitter" style="color: #0082ae;"></i></a></li><!--fontawesome icon-->
+            <li><a target="_blank" href="https://github.com/"><i class="fa-brands fa-github-alt" style="color: #01151c;"></i></a></li><!--fontawesome icon-->
+            
+        </ul>
+
+        
+        <div><a href="https://carsambamyo.omu.edu.tr/tr" style="color:rgb(252, 64, 31) ;">ONDOKUZ MAYIS ÜNİVERSİTESİ &#169; </a></div>
+     </footer>
+
+
+
+
+    <!---menu-->
+
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.top ="0";
+        }
+        
+        function hideMenu(){
+            navLinks.style.top =  "-200px";
+        }
+    </script>
